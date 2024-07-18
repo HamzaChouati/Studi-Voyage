@@ -1,0 +1,55 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+.dropdown{
+  background-image: url('./assets/pexels-asadphoto-23696971.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 585px;
+  align-self: center; /* Centrer horizontalement le dropdown */
+  margin-bottom: 20px; 
+  width: 1450px;
+}
+
+#deroulant {
+  display: flex;
+  justify-content: space-around; 
+  list-style: none;
+  padding: 0;
+  margin-top: 560px;
+
+}
+
+#deroulant li {
+  margin: 0 10px; /* Marge entre chaque bouton */
+}
+
+.section-container {
+  position: relative;
+  min-height: 600px; /* Ajuster la hauteur de la section selon vos besoins */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card-container {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  
+}
+
+
+
+
