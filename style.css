@@ -14,7 +14,7 @@
   background-size: cover;
   background-position: center;
   height: 585px;
-  align-self: center; /* Centrer horizontalement le dropdown */
+  align-self: center;
   margin-bottom: 20px; 
   width: 1450px;
 }

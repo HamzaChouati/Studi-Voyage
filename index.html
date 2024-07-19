@@ -13,34 +13,15 @@
 
 </head>
 <body>
-    <div class="container-fluid text-center pt-2" style="background-color: #FFD700; height: 30px;">
-        <div class="row ">
-            <div class="col border-right border-dark">
-            Voyagez, explorez, vivez
-            </div>
-            <div class="col border-right border-dark">
-            Nos agences
-            </div>
-            <div class="col border-right border-dark">
-            01 52 60 49 13
-            </div>
-            <div class="col border-right border-dark">
-            Completer mon voyage
-            </div>
-            <div class="col border-right border-dark">
-            <button type="button" class="btn btn-sm btn-success rounded-4">Mon compte</button>
-            </div>
-        </div>
-        </div>
         <nav class="navbar navbar-expand-lg py-0">
-            <div class="container-fluid opacity-50" style="background-color: #5DADE2; height: 100px;">
+            <div class="container-fluid text-dark" style="background-color: #5DADE2; height: 50px;">
                 <a class="navbar-brand" href="#">
-                <img src="./assets/Travel_Agency_or_Website_Logo_with_Heart_and_Airplane_-removebg-preview.png" alt="logo-agence" style="height: 150px"/>
+                <img src="./assets/logoStudiVoyages.png" alt="logo-agence" style="height: 50px"/>
                 </a>
                 <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav mx-5">
-                    <li class="nav-item mx-5">
-                    <a class="nav-link" href="#">Destination</a>
+                <ul class="navbar-nav mx-5 fw-bolder">
+                    <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Destination</a>
                     </li>
                     <li class="nav-item mx-5">
                     <a class="nav-link" href="#">Séjours</a>
@@ -58,14 +39,61 @@
                     <li class="nav-item mx-5">
                     <a class="nav-link" href="#">Hôtels</a>
                     </li>
+                    <li class="nav-item">
+                      <bouton class="btn btn-sm btn-success rounded-4" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 170%; height: 40px;">Mon compte</bouton>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Connexion</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div id="emailHelp" class="form-text">Mot de passe oublié?</div>
+                              </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                              <button type="button" class="btn btn-primary">Connexion</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
                 </ul>
                 </div>
             </div>
-            
             </nav>
+
+            <div class="container-fluid text-center fw-light" style="background-color: #FFD700; height: 22px;">
+              <div class="row ">
+                  <div class="col">
+                  Voyagez, explorez, vivez
+                  </div>
+                  <div class="col">
+                  Nos agences
+                  </div>
+                  <div class="col">
+                  01 52 60 49 13
+                  </div>
+                  <div class="col">
+                  Completer mon voyage
+                  </div>
+              </div>
+          </div>
+
             <div class="section-container">
 
-             
+              
 
             <div class="dropdown">
                 <ul id="deroulant" class="justify-content-center">
@@ -180,7 +208,7 @@
     <div class="row single-form g-o">
       <div class="col-sm-12 col-lg-6">
         <div class="left">
-          <h2><span>Ecrivez-nous</span><br>Business</h2>
+          <h2><span>Ecrivez-nous</span></h2>
         </div>
       </div>
       <div class="col-sm-12-col-lg-6">
@@ -272,3 +300,5 @@
   </body>
 </body>
 </html>
+
+
